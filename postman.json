@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "d1586ff1-11f6-4e50-820a-870246a8a169",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33334519"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/send-email?targetEmail=test@abv.bg",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/send-email?targetEmail=test@abv.bg",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"send-email"
+					],
+					"query": [
+						{
+							"key": "targetEmail",
+							"value": "test@abv.bg"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
