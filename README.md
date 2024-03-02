@@ -1,6 +1,7 @@
 # This is Spring mail sender example
 
-Before testing it add you gmail account and app password in "application.properties":
+Before testing it add your gmail account and app password in "application.properties":
+
 spring.mail.username=<gmail>
 spring.mail.password=<app pasword>
 
