@@ -2,8 +2,8 @@
 
 Before testing it add your gmail account and app password in "application.properties":
 
-spring.mail.username=<gmail>
-spring.mail.password=<app pasword>
+spring.mail.username=gmail
+spring.mail.password=app pasword
 
 Change test@abv.bg with your destinaction email.
 
